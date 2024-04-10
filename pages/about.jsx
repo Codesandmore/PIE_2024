@@ -19,19 +19,19 @@ const About = () => {
           <div data-aos="zoom-in-up">
             <div className="noofm">
               <p className="orange-text">30+</p>
-              <p className="white-text">Events</p>
+              <p className="white-text">EVENTS</p>
             </div>
           </div>
           <div data-aos="zoom-in-up">
             <div className="noofm">
               <p className="orange-text">300+</p>
-              <p className="white-text">Participants</p>
+              <p className="white-text">PARTICIPANTS</p>
             </div>
           </div>
           <div data-aos="zoom-in-up">
             <div className="noofm">
               <p className="orange-text">6</p>
-              <p className="white-text">Awards</p>
+              <p className="white-text">AWARDS</p>
             </div>
           </div>
         </div>
