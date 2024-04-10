@@ -48,3 +48,17 @@
 .white-text {
   color: #ffffff; 
 }
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column;
+  }
+
+  .description-container {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+
+  .image-container img {
+    max-width: 100%;
+  }
+}
