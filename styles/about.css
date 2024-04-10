@@ -1,0 +1,50 @@
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.who-we-section,
+.mission-section,
+.vision-section {
+  margin-bottom: 50px;
+}
+
+.content-container {
+  display: flex;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 100%; 
+  height: 100%;
+}
+
+.description-container {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.member-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.noofm {
+  text-align: center;
+}
+
+
+.orange-text {
+  color: #E03703; 
+  font-size: larger;
+}
+
+.white-text {
+  color: #ffffff; 
+}
