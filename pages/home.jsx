@@ -61,6 +61,36 @@ const Home = () => {
           </div>
         </section>
       </div>
+      {/* Events */}
+      <div className="events">
+      <section className={styles.homeInner}>
+      <div className={styles.frameParent}>
+        <div className={styles.notableEventsWrapper}>
+          <div className={styles.notableEvents}>NOTABLE EVENTS</div>
+        </div>
+        <div className={styles.eventCardParent}>
+          <img
+            className={styles.eventCardIcon}
+            loading="lazy"
+            alt=""
+            src="/event-card@2x.png"
+          />
+          <img
+            className={styles.eventCardIcon1}
+            loading="lazy"
+            alt=""
+            src="/event-card-1@2x.png"
+          />
+          <img
+            className={styles.eventCardIcon2}
+            loading="lazy"
+            alt=""
+            src="/event-card-2@2x.png"
+          />
+        </div>
+      </div>
+    </section>
+      </div>
     </div>
   );
 };
