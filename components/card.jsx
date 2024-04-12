@@ -1,7 +1,7 @@
-const Card = () => {
+const Card = ({ img, text }) => {
   return (
     <div
-      style={{ height: "50vh", width: "20vw", backgroundColor: "black" }}
+      style={{ width: "40vh", height: "50vh", backgroundColor: "white" }}
     ></div>
   );
 };
