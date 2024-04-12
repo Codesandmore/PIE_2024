@@ -12,6 +12,9 @@ const RecentEvents = () => {
           display: "flex",
           justifyContent: "space-around",
           width: "100vw",
+          flexDirection:
+            window.innerHeight > window.innerWidth ? "column" : "row",
+          alignItems: "center",
         }}
       >
         {generateCards()}

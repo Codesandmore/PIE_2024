@@ -6,7 +6,7 @@ const Desc = () => {
         <img
           src="/images/aboutpic.jpg"
           alt="Who We Are"
-          style={{ width: "50%", marginLeft: "25%" }}
+          style={{ width: "50%", borderRadius: "10px" }}
         />
       </div>
       <div className="description-container">

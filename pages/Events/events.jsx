@@ -6,7 +6,7 @@ import Desc from "./desc";
 
 const Events = () => {
   return (
-    <div>
+    <div style={{ textAlign: "center" }}>
       <Desc />
       <RecentEvents />
       <MajorEvents />
