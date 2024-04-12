@@ -4,7 +4,12 @@ import { recentEvents } from "../../Data/recentEvents";
 const RecentEvents = () => {
   const generateCards = () => recentEvents.map((item) => <Card />);
 
-  return <>{generateCards()}</>;
+  return (
+    <>
+      <h1>Recent Events</h1>
+      <div style={{ display: "flex" }}>{generateCards()}</div>
+    </>
+  );
 };
 
 export default RecentEvents;
