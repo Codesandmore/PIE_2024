@@ -7,7 +7,15 @@ const MajorEvents = () => {
   return (
     <>
       <h1>Major Events</h1>
-      <div style={{ display: "flex" }}>{generateCards()}</div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-around",
+          width: "100vw",
+        }}
+      >
+        {generateCards()}
+      </div>
     </>
   );
 };

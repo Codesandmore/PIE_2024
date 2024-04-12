@@ -7,7 +7,15 @@ const RecentEvents = () => {
   return (
     <>
       <h1>Recent Events</h1>
-      <div style={{ display: "flex" }}>{generateCards()}</div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-around",
+          width: "100vw",
+        }}
+      >
+        {generateCards()}
+      </div>
     </>
   );
 };
