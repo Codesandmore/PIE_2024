@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Events from "../pages/Events/events.jsx";
+import Test from "../pages/test.jsx"
 import About from "../pages/about.jsx";
 import Navbar from "../components/navbar.jsx";
 import Footer from "../components/footer.jsx";
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/home",
     element: <Home />,
+  },
+  {
+    path: "/test",
+    element: <Test />,
   },
 ]);
 

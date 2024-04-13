@@ -1,0 +1,96 @@
+.bg,
+.frameChild {
+  position: absolute;
+}
+.bg {
+  top: -52.1px;
+  left: calc(50% - 723.95px);
+  border-radius: 43.93px;
+  background-color: #352f2f;
+  width: 1502.5px;
+  height: 922.6px;
+  display: none;
+}
+.frameChild {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 101.6px;
+  max-height: 100%;
+  width: 383.9px;
+  object-fit: contain;
+}
+.center {
+  position: absolute;
+  top: 35.6px;
+  left: 0;
+  border-radius: 43.93px;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(255, 255, 255, 0.5) 12.44%,
+    rgba(137, 137, 137, 0.17)
+  );
+  backdrop-filter: blur(87.87px);
+  border: 1.8px solid rgba(255, 255, 255, 0.56);
+  box-sizing: border-box;
+  width: 413px;
+  height: 351.5px;
+  z-index: 1;
+}
+.vectorParent {
+  position: absolute;
+  top: 197.8px;
+  left: 465.7px;
+  width: 485.5px;
+  height: 404.8px;
+}
+.ieee,
+.pie {
+  margin: 0;
+}
+.ieeePie {
+  position: absolute;
+  top: 269.5px;
+  left: 569.4px;
+  letter-spacing: 0.06em;
+  mix-blend-mode: overlay;
+  z-index: 2;
+}
+.gridIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.gallery1 {
+  height: 817.1px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+  font-size: 131.8px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Squada One";
+}
+.gallery {
+  width: 1344.3px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 767px) {
+  .ieeePie {
+    font-size: 53px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ieeePie {
+    font-size: 33px;
+  }
+}
