@@ -7,7 +7,7 @@ import Events from "../pages/Events/events.jsx";
 import About from "../pages/about.jsx";
 import Navbar from "../components/navbar.jsx";
 import Footer from "../components/footer.jsx";
-import Home from "../pages/home.jsx";
+import Home from "../pages/Home/home.jsx";
 
 const router = createBrowserRouter([
   {
