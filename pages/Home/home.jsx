@@ -6,9 +6,9 @@ import HomeHero from "./home_hero";
 function Home() {
   return (
     <div>
-      {/* <HomeHero /> */}
+      <HomeHero />
       <HomeAbout />
-      {/* <HomeEvents /> */}
+      <HomeEvents />
     </div>
   );
 }
