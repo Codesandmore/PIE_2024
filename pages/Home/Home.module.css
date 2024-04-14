@@ -129,10 +129,6 @@
     object-fit: cover;
   }
   
-  .topDiv {
-
-  }
-
   @media only screen and (max-width: 768px) {
 
 
@@ -140,8 +136,6 @@
       margin-right: 0; /* Remove fixed margin */
       width: auto; /* 100% viewport width */
     }
-
-
 
     .images{
       display: none;
