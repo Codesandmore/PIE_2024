@@ -1,13 +1,20 @@
 
 .about-container {
-  max-width: 800px;
-  margin: 0 auto;
+  text-align: center;
+  max-width: auto;
+  /* margin: 10px; */
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .who-we-section,
 .mission-section,
 .vision-section {
   margin-bottom: 50px;
+}
+
+.who-we-section{
+  margin-left: 10vw;
 }
 
 .content-container {
@@ -26,7 +33,7 @@
 
 .description-container {
   flex: 1;
-  padding-left: 20px;
+  padding-left: 0px;
 }
 
 .member-container {
@@ -51,6 +58,10 @@
 @media (max-width: 768px) {
   .content-container {
     flex-direction: column;
+  }
+
+  .who-we-section{
+    margin-left: auto;
   }
 
   .description-container {

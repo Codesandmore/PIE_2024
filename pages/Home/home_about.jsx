@@ -5,7 +5,7 @@ function HomeAbout() {
       <div className="about">
         <section className={styles.aboutUs}>
           <div className={styles.textContainer}>
-            <h2>About Us</h2>
+            <h2 className={styles.aboutFont}>About Us</h2>
             <div className={styles.imageContainer}>
               <img
                 className={styles.leftImage}
