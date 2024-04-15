@@ -10,11 +10,13 @@ const VoiceIt = () => {
       <div
         style={{
           display: "flex",
-          justifyContent: "space-around",
+          justifyContent:
+            window.innerHeight > window.innerWidth
+              ? "flex-start"
+              : "space-around",
           width: "100vw",
-          flexDirection:
-            window.innerHeight > window.innerWidth ? "column" : "row",
           alignItems: "center",
+          overflowX: "scroll",
         }}
       >
         {generateCards()}
