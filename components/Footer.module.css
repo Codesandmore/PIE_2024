@@ -453,6 +453,82 @@
     flex-wrap: wrap;
   }
   .legalLinks {
+    font-size: 13px;
     gap: 25px;
   }
+
+  .copyright2023{
+    font-size: 13px;
+  }
+
+  .msgbar {
+    align-self: stretch;
+    border-radius: 62.5px;
+    background-color: #fff;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0.1px 0 26.7px;
+    flex-shrink: 0;
+  }
+
+  .msgbarChild {
+    align-self: stretch;
+    /* height: 21px; */
+    width: 370.7px;
+    position: relative;
+    border-radius: 62.5px;
+    background-color: #fff;
+    display: none;
+    /* max-width: 100%; */
+  }
+  .inputField {
+    width: 190.7px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    height: 41.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 21.2px 0 0;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-size: 16.3px;
+    color: #826868;
+  }
+
+
+  .buttonIconChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #ff4d00;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .image12Icon {
+    position: absolute;
+    top: 7.5px;
+    left: 7.4px;
+    width: 26px;
+    height: auto;
+    object-fit: contain;
+    z-index: 2;
+  }
+  .buttonIcon {
+    height: 35px;
+    flex: 1;
+    position: relative;
+  }
+  .sendButtonArea {
+    display: none;
+    width: 39.3px;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
 }

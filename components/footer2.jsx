@@ -93,11 +93,11 @@ function Footer2() {
             <div className={styles.copyright2023}>
               Copyright © 2023 IEEE PIE KERALA SECTION
             </div>
-            <div className={styles.legalLinks}>
+            {/* <div className={styles.legalLinks}>
               <div className={styles.termsOfService}>Terms of Service</div>
               <div className={styles.privacyPolicy}>Privacy Policy</div>
               <div className={styles.cookies}>Cookies</div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
