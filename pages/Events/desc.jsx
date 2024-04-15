@@ -1,7 +1,15 @@
 const Desc = () => {
   return (
     <div>
-      <h2>Events</h2>
+      <h2
+        style={
+          {
+            fontSize: "40px",
+          }
+        }
+      >
+        Events
+      </h2>
       <div className="image-container">
         <img
           src="/images/aboutpic.jpg"
