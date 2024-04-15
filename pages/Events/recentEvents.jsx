@@ -10,7 +10,10 @@ const RecentEvents = () => {
       <div
         style={{
           display: "flex",
-          justifyContent: "flex-start",
+          justifyContent:
+            window.innerHeight > window.innerWidth
+              ? "flex-start"
+              : "space-around",
           width: "100vw",
           alignItems: "center",
           overflowX: "scroll",
