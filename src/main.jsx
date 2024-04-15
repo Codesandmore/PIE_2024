@@ -9,6 +9,7 @@ import About from "../pages/about.jsx";
 import Navbar from "../components/navbar.jsx";
 import Footer from "../components/footer.jsx";
 import Home from "../pages/Home/home.jsx";
+import Execom from "../pages/Execom/execom.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,15 +20,16 @@ const router = createBrowserRouter([
     path: "/about",
     element: <About />,
   },
-  // TODO : remove after test
+
   {
-    path: "/home",
-    element: <Home />,
+    path: "/execom",
+    element: <Execom />,
   },
   {
     path: "/",
     element: <Home />,
   },
+  // TODO : remove after test
   {
     path: "/test",
     element: <Test />,

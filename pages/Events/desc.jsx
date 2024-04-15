@@ -2,11 +2,9 @@ const Desc = () => {
   return (
     <div>
       <h2
-        style={
-          {
-            fontSize: "40px",
-          }
-        }
+        style={{
+          fontSize: "40px",
+        }}
       >
         Events
       </h2>
@@ -19,11 +17,11 @@ const Desc = () => {
       </div>
       <div className="description-container">
         <p>
-          PIE is a special interest group of IEEE which focuses on curating a
-          vibrant community innovators and entrepreneur. Promotion of Innovation
-          and Entrepreneurship, intends to support engineers in pursuing
-          entrepreneurship, have a better understanding of Startups and supports
-          them by giving them access to the right platforms and resources.
+          The IEEE PIE Kerala Section proudly recognizes the outstanding
+          achievements of its members and the exceptional impact of our events.
+          These accomplishments serve as a testament to the dedication of our
+          team and our commitment to fostering technological innovation and
+          entrepreneurship.
         </p>
       </div>
       <div className="member-container">
