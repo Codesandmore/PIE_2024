@@ -2,8 +2,8 @@ const Card = ({ img, text }) => {
   return (
     <div
       style={{
-        width: "40vh",
-        height: "60vh",
+        minWidth: window.innerHeight > window.innerWidth ? "60vw" : "40vh",
+        height: window.innerHeight > window.innerWidth ? "90vw" : "60vh",
         backgroundColor: "white",
         borderRadius: "15px",
       }}

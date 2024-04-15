@@ -10,11 +10,10 @@ const RecentEvents = () => {
       <div
         style={{
           display: "flex",
-          justifyContent: "space-around",
+          justifyContent: "flex-start",
           width: "100vw",
-          flexDirection:
-            window.innerHeight > window.innerWidth ? "column" : "row",
           alignItems: "center",
+          overflowX: "scroll",
         }}
       >
         {generateCards()}
