@@ -10,6 +10,7 @@ import Navbar from "../components/navbar.jsx";
 import Footer from "../components/footer.jsx";
 import Home from "../pages/Home/home.jsx";
 import Execom from "../pages/Execom/execom.jsx";
+import Awards from "../pages/Awards/awards";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: "/test",
     element: <Test />,
+  },
+  {
+    path: "/awards",
+    element: <Awards />,
   },
 ]);
 
