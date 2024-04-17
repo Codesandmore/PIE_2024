@@ -1,4 +1,4 @@
-export const awardData = [
+export const awards = [
   {
     id: 1,
     name: "V-FIESTA",

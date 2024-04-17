@@ -4,11 +4,10 @@ import Card from "../../components/card";
 const Awards = () => {
   const generateCards = () =>
     awards.map((item) => (
-      <div>
-        <Card />
-        <p>{item.title}</p>
-        <p>{item.category}</p>
+      <div key={item.id}>
+        <Card key={item.id} img={item.img} text={item.name} />
         <p>{item.name}</p>
+        <p>{item.dec}</p>
       </div>
     ));
   return (

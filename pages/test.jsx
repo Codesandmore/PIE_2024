@@ -1,5 +1,5 @@
 // import Gallery from "../components/gallery";
-import { awardData } from "../Data/awards";
+import { awards } from "../Data/awards";
 import { notableEvents } from "../Data/notableEvents";
 import { recentEvents } from "../Data/recentEvents";
 import { majorEvents } from "../Data/majorEvents";
