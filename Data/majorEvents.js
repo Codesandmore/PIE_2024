@@ -1,17 +1,32 @@
 export const majorEvents = [
   {
     id: 1,
-    name: "event mn",
-    img: "",
+    name: "Vfiesta",
+    img: "major/vfiesta.jpg",
   },
   {
     id: 2,
-    name: "event mn-1",
-    img: "",
+    name: "Emanate",
+    img: "major/emanate.jpeg",
   },
   {
     id: 3,
-    name: "event mn-2",
-    img: "",
+    name: "Arise",
+    img: "major/arise.jpg",
+  },
+  {
+    id: 4,
+    name: "Upscale'22",
+    img: "major/upscale22.jpeg",
+  },
+  {
+    id: 5,
+    name: "Proteaux",
+    img: "major/proteax.jpg",
+  },
+  {
+    id: 6,
+    name: "SOT",
+    img: "major/sot.jpg",
   },
 ];

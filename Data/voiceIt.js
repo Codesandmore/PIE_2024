@@ -1,17 +1,17 @@
 export const voiceIt = [
   {
     id: 1,
-    name: "event vn",
-    img: "",
+    name: "Nikhil Prasad, Founder of Karikku",
+    img: "voice/voicenikhil.jpg",
   },
   {
     id: 2,
-    name: "event vn-1",
-    img: "",
+    name: "Nikhil Kilivayil, CEO & Founder, Brototype",
+    img: "voice/voicenikhil_bro.jpeg",
   },
   {
     id: 3,
-    name: "event vn-2",
-    img: "",
+    name: "Agrim Prakash,Founder and CEO of Idiotbox Media",
+    img: "voice/voiceitagrim.jpg",
   },
 ];
