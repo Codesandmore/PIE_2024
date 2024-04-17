@@ -1,8 +1,14 @@
+import { awards } from "../../Data/awards";
+import Card from "../../components/card";
+
 const Awards = () => {
   const generateCards = () =>
-    recentEvents.map((item) => (
+    awards.map((item) => (
       <div>
         <Card />
+        <p>{item.title}</p>
+        <p>{item.category}</p>
+        <p>{item.name}</p>
       </div>
     ));
   return (
