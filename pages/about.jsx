@@ -1,5 +1,6 @@
 import "../styles/about.css";
 import Gallery from "../components/gallery";
+import styles from "./Home/Info.module.css";
 
 const About = () => {
   return (
@@ -21,26 +22,28 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="member-container">
-          <div data-aos="zoom-in-up">
-            <div className="noofm">
-              <p className="orange-text">30+</p>
-              <p className="white-text">EVENTS</p>
-            </div>
-          </div>
-          <div data-aos="zoom-in-up">
-            <div className="noofm">
-              <p className="orange-text">300+</p>
-              <p className="white-text">PARTICIPANTS</p>
-            </div>
-          </div>
-          <div data-aos="zoom-in-up">
-            <div className="noofm">
-              <p className="orange-text">6</p>
-              <p className="white-text">AWARDS</p>
-            </div>
+        <div>
+      <div className={styles.fontBox}>
+        <div data-aos="zoom-in-up">
+          <div className={styles.fontCenter}>
+            <p className={styles.fontOrange}>30+</p>
+            <p className={styles.fontWhite}>EVENTS</p>
           </div>
         </div>
+        <div data-aos="zoom-in-up">
+          <div className={styles.fontCenter}>
+            <p className={styles.fontOrange}>300+</p>
+            <p className={styles.fontWhite}>PARTICIPANTS</p>
+          </div>
+        </div>
+        <div data-aos="zoom-in-up">
+          <div className={styles.fontCenter}>
+            <p className={styles.fontOrange}>6</p>
+            <p className={styles.fontWhite}>AWARDS</p>
+          </div>
+        </div>
+      </div>
+    </div>
       </section>
 
       <section className="mission-section">
