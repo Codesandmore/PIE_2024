@@ -13,6 +13,11 @@
   margin-bottom: 50px;
 }
 
+.who-we-section h2{
+  padding-right: 130px;
+  padding-bottom: 20px;
+}
+
 .who-we-section{
   margin-left: 10vw;
 }
@@ -23,6 +28,7 @@
 
 .image-container {
   flex: 1;
+  padding-bottom: 20px;
 }
 
 .image-container img {
@@ -33,7 +39,7 @@
 
 .description-container {
   flex: 1;
-  padding-left: 0px;
+  padding-top: 80px;
 }
 
 .member-container {
@@ -63,12 +69,16 @@
   .who-we-section{
     margin-left: auto;
   }
-
+ .who-we-section h2{
+  padding-right: 0px;
+ }
   .description-container {
     padding-left: 0;
     margin-top: 20px;
   }
-
+.image-container{
+  padding-bottom: 0px;
+}
   .image-container img {
     max-width: 100%;
   }
