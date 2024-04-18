@@ -2,7 +2,10 @@ import Card from "../../components/card";
 import { recentEvents } from "../../Data/recentEvents";
 
 const RecentEvents = () => {
-  const generateCards = () => recentEvents.map((item) => <Card />);
+  const generateCards = () =>
+    recentEvents.map((item) => (
+      <Card key={item.id} img={item.img} text={item.name} />
+    ));
 
   return (
     <>
