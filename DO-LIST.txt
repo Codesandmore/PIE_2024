@@ -3,7 +3,7 @@
 
 Home page :
 -animation
--add 300+ member
+
 
 About page : (Chacko)
 -desktop view - note aligned
@@ -20,5 +20,3 @@ Footer :
 
 =>Pending
 NavBar :
-Execom :
-Award page : (some what a Copy of Event page) 
