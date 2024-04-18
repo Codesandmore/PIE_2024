@@ -1,17 +1,17 @@
 export const recentEvents = [
   {
     id: 1,
-    name: "event n",
-    img: "",
+    name: "HustleCon",
+    img: "recent/hustle.jfif",
   },
   {
     id: 2,
-    name: "event n-1",
-    img: "",
+    name: "BrandZ",
+    img: "recent/brandz.jpeg",
   },
   {
     id: 3,
-    name: "event n-2",
-    img: "",
+    name: "Ternate",
+    img: "recent/ternate.jpeg",
   },
 ];
