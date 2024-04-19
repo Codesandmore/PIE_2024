@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import './Navbar.css'; 
 
@@ -14,6 +13,11 @@ function Navbar2() {
       <div className="navbar-logo">
         <img src="/pielogo.png" alt="Logo" />
       </div>
+      <div className="hamburger-menu" onClick={toggleMenu}>
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+      </div>
       <div className={`navbar-menu ${showMenu ? "active" : ""}`}>
         <ul className="navbar-links">
           <li><a href="/">HOME</a></li>
@@ -23,11 +27,6 @@ function Navbar2() {
           <li><a href="/awards">AWARDS</a></li>
         </ul>
         <button className="join-us-button">Contact</button>
-      </div>
-      <div className="hamburger-menu" onClick={() => setShowMenu(!showMenu)}>
-        <div className="line"></div>
-        <div className="line"></div>
-        <div className="line"></div>
       </div>
     </nav>
   );
