@@ -1,3 +1,4 @@
+import ExecomCard from "../../components/ExecomCard";
 import styles from "./Execom.module.css";
 function Execom() {
   return (
@@ -8,6 +9,7 @@ function Execom() {
       <div>
         <h1>Core Team</h1>
       </div>
+      <ExecomCard />
     </div>
   );
 }
