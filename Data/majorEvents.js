@@ -7,7 +7,7 @@ export const majorEvents = [
   {
     id: 2,
     name: "Emanate",
-    img: "major/emanate.jpeg",
+    img: "major/emanate2.png",
   },
   {
     id: 3,

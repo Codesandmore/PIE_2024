@@ -22,8 +22,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div>
-        </div>
+        <div></div>
       </section>
       <HomeInfoCard />
 
@@ -49,9 +48,9 @@ const About = () => {
           the greater good of society and the planet
         </p>
       </section>
-      {/* <div>
+      <div>
         <Gallery />
-      </div> */}
+      </div>
     </div>
   );
 };

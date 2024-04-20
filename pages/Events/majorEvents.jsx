@@ -2,7 +2,10 @@ import Card from "../../components/card";
 import { majorEvents } from "../../Data/majorEvents";
 
 const MajorEvents = () => {
-  const generateCards = () => majorEvents.map((item) => <Card />);
+  const generateCards = () =>
+    majorEvents.map((item) => (
+      <Card key={item.id} img={item.img} text={item.name} />
+    ));
 
   return (
     <>
@@ -16,7 +19,9 @@ const MajorEvents = () => {
               : "space-around",
           width: "100vw",
           alignItems: "center",
-          overflowX: "scroll",
+          // overflowX: "scroll",
+          flexWrap:"wrap"
+          // scrollbar-width: "none",
         }}
       >
         {generateCards()}
