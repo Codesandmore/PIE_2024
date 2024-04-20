@@ -14,7 +14,9 @@
 
 .navbar-menu {
   display: flex;
+  justify-content: center; 
   align-items: center;
+  flex-grow: 1; 
 }
 
 .navbar-links {
@@ -28,12 +30,18 @@
   margin-right: 25px; 
 }
 
+.navbar-links li:last-child {
+  margin-right: 0px; 
+}
+
 .navbar-links li a {
   text-decoration: none;
   color: #fff;
+  padding: 0 75px; 
 }
-.navbar-links li a:hover{
-  color:#e53d04;
+
+.navbar-links li a:hover {
+  color: #e53d04;
 }
 
 .navbar-links li a.active {
@@ -47,6 +55,7 @@
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
+  margin-left: auto; 
 }
 
 .hamburger-menu {
@@ -65,7 +74,11 @@
   background-color: #e53d04;
   border-radius: 10px;
 }
-
+@media screen and ((min-width:769px) and (max-width: 1200px)) {
+  .navbar-links li a {
+    padding: 0 35px; 
+  }
+}
 @media screen and (max-width: 768px) {
   .navbar-menu {
     display: none;
@@ -100,5 +113,8 @@
 
   .navbar-links li {
     margin-right: 10px; 
+  }
+  .join-us-button{
+    margin-left: 0;
   }
 }
