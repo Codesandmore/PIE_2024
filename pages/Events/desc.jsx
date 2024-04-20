@@ -1,3 +1,5 @@
+import styles from "./Events.module.css";
+
 const Desc = () => {
   return (
     <div>
@@ -8,14 +10,15 @@ const Desc = () => {
       >
         Events
       </h2>
-      <div className="image-container">
+      <div>
         <img
           src="/images/aboutpic.jpg"
           alt="Who We Are"
-          style={{ width: "50%", borderRadius: "10px" }}
+          className={styles.events}
         />
       </div>
-      <div className="description-container">
+      {/* rempved it from <p> className="description-container" */}
+      <div>
         <p>
           The IEEE PIE Kerala Section proudly recognizes the outstanding
           achievements of its members and the exceptional impact of our events.
@@ -24,7 +27,7 @@ const Desc = () => {
           entrepreneurship.
         </p>
       </div>
-      <div className="member-container">
+      {/* <div className="member-container">
         <div data-aos="zoom-in-up">
           <div className="noofm">
             <p className="orange-text">30+</p>
@@ -43,7 +46,7 @@ const Desc = () => {
             <p className="white-text">AWARDS</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
