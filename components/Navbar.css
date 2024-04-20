@@ -21,7 +21,7 @@
 }
 
 .navbar-links li {
-  margin-right: 25px;
+  margin-right: 5px;
 }
 
 .navbar-links li:last-child {
@@ -70,12 +70,19 @@
 }
 @media screen and ((min-width:1201px) and (max-width: 1400px)) {
   .navbar-links li a {
-    padding: 0 50px; 
+    padding: 0 20px; 
   }
 }
+
+@media screen and ((min-width:1201px) and (max-width: 1800px)) {
+  .navbar-links li a {
+    padding: 0 30px; 
+  }
+}
+
 @media screen and ((min-width:1001px) and (max-width: 1200px)) {
   .navbar-links li a {
-    padding: 0 35px; 
+    padding: 0 18px; 
   }
 }
 @media screen and ((min-width:769px) and (max-width: 1000px)) {

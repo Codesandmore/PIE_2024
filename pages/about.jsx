@@ -1,6 +1,6 @@
 import "../styles/about.css";
 import Gallery from "../components/gallery";
-import styles from "./Home/Info.module.css";
+import HomeInfoCard from "./Home/home_info";
 
 const About = () => {
   return (
@@ -23,28 +23,9 @@ const About = () => {
           </div>
         </div>
         <div>
-      <div className={styles.fontBox}>
-        <div data-aos="zoom-in-up">
-          <div className={styles.fontCenter}>
-            <p className={styles.fontOrange}>30+</p>
-            <p className={styles.fontWhite}>EVENTS</p>
-          </div>
         </div>
-        <div data-aos="zoom-in-up">
-          <div className={styles.fontCenter}>
-            <p className={styles.fontOrange}>300+</p>
-            <p className={styles.fontWhite}>PARTICIPANTS</p>
-          </div>
-        </div>
-        <div data-aos="zoom-in-up">
-          <div className={styles.fontCenter}>
-            <p className={styles.fontOrange}>6</p>
-            <p className={styles.fontWhite}>AWARDS</p>
-          </div>
-        </div>
-      </div>
-    </div>
       </section>
+      <HomeInfoCard />
 
       <section className="mission-section">
         <h2>OUR MISSION</h2>
