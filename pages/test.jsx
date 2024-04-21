@@ -35,13 +35,13 @@ const RecentEventsSpotify = () => {
     piePods.map((item) => <PodCard key={item.id} src={item.src} />);
 
   return (
-    <div>
+    <div style={{ width: "100vw" }}>
       <h1>PIE PODS</h1>
       <div
         style={{
           display: "flex",
-          justifyContent: "space-around",
-          width: containerWidth,
+          justifyContent: "flex-start",
+          width: "100vw",
           alignItems: "center",
           overflowX: "scroll",
         }}

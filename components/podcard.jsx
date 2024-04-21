@@ -1,12 +1,12 @@
-  import React from 'react';
+import React from "react";
 
 const PodCard = ({ src, id }) => {
   return (
-    <div className="eventcard" data-aos="fade-up">
+    <div className="eventcard" data-aos="fade-up" style={{ margin: "8vh" }}>
       <iframe
-        style={{ borderRadius: '12px' }}
+        style={{ borderRadius: "12px" }}
         src={src}
-        width="100%"
+        minWidth="302"
         height="352"
         frameBorder="0"
         allowFullScreen=""
