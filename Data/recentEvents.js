@@ -1,6 +1,11 @@
 export const recentEvents = [
   {
     id: 1,
+    name: "Step",
+    img: "recent/step.jpg",
+  },
+  {
+    id: 1,
     name: "HustleCon",
     img: "recent/hustle.jfif",
   },
