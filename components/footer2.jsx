@@ -37,54 +37,83 @@ function Footer2() {
                 </div>
                 <div className={styles.navigationLinks}>
                   <div className={styles.plansPricingParent}>
-                    <div
+                    <a
+                      href="https://www.ieee.org/"
                       className={styles.plansPricing}
-                    >{`Plans & Pricing`}</div>
-                    <div className={styles.features}>Features</div>
-                    <div className={styles.newsBlogs}>{`News & Blogs`}</div>
-                    <div className={styles.careers}>Careers</div>
+                    >{`IEEE org`}</a>
+                    <a
+                      href="https://ieee-collabratec.ieee.org/"
+                      className={styles.features}
+                    >
+                      IEEE Collabratec
+                    </a>
+                    <a
+                      href="https://www.ieeer10.org/"
+                      className={styles.newsBlogs}
+                    >{`IEEE Region 10`}</a>
+                    <a
+                      href="https://ieeexplore.ieee.org/Xplore/home.jsp"
+                      className={styles.careers}
+                    >
+                      IEEE Xplore Digital Library
+                    </a>
                   </div>
                   <div className={styles.aboutUsParent}>
-                    <div className={styles.aboutUs}>About Us</div>
-                    <div className={styles.documentation}>Documentation</div>
-                    <div className={styles.papers}>Papers</div>
-                    <div className={styles.pressConferences}>
-                      Press Conferences
-                    </div>
+                    <a href="/about" className={styles.aboutUs}>
+                      About Us
+                    </a>
+                    <a
+                      href="https://ieeekerala.org/"
+                      className={styles.documentation}
+                    >
+                      IEEE Kerala Section
+                    </a>
+                    <a
+                      href="https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join"
+                      className={styles.papers}
+                    >
+                      Join IEEE
+                    </a>
+                    <a
+                      href="https://www.ieee.org/sitemap.html"
+                      className={styles.pressConferences}
+                    >
+                      More Links
+                    </a>
                   </div>
                 </div>
               </div>
               <div className={styles.socialMediaBar}>
-                <button className={styles.instagram}>
+                <a href="https://www.instagram.com/ieeepie.kerala/" className={styles.instagram}>
                   <img className={styles.igIcon} alt="" src="icon/inst.png" />
-                </button>
-                <button className={styles.facebook}>
+                </a>
+                <a href="https://www.facebook.com/ieeepieks" className={styles.facebook}>
                   <img className={styles.fbIcon} alt="" src="icon/fb.png" />
-                </button>
-                <button className={styles.linkedin}>
+                </a>
+                <a href="https://www.linkedin.com/company/ieee-pie-kerala-section/" className={styles.linkedin}>
                   <img
                     className={styles.linkedinIcon}
                     alt=""
                     src="icon/Ldin.png"
                   />
-                </button>
-                <button className={styles.spotify}>
+                </a>
+                <a href="https://open.spotify.com/show/0efNfgAgQScY8NJeYtUMzB?si=vUpL8efCQua7Ia34cgCz0w&utm_source=copy-link&nd=1&dlsi=511b0693248e4ba6" className={styles.spotify}>
                   <img
                     className={styles.spotifyIcon}
                     alt=""
                     src="icon/sp.png"
                   />
-                </button>
-                <div className={styles.yt}>
+                </a>
+                <a href="https://www.youtube.com/@IEEEPIEKeralaSection" className={styles.yt}>
                   <img
                     className={styles.ytIcon}
                     loading="lazy"
                     alt=""
                     src="icon/yt.png"
                   />
-                </div>
+                </a>
               </div>
-            </div> 
+            </div>
           </div>
           <div className={styles.footerLine} />
         </footer>
@@ -93,11 +122,6 @@ function Footer2() {
             <div className={styles.copyright2023}>
               Copyright © 2023 IEEE PIE KERALA SECTION
             </div>
-            {/* <div className={styles.legalLinks}>
-              <div className={styles.termsOfService}>Terms of Service</div>
-              <div className={styles.privacyPolicy}>Privacy Policy</div>
-              <div className={styles.cookies}>Cookies</div>
-            </div> */}
           </div>
         </div>
       </div>
