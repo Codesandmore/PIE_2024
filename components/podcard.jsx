@@ -1,10 +1,25 @@
+import React from 'react';
+
 const PodCard = ({ src, id }) => {
+  const screenWidth = window.innerWidth;
+
   return (
-    <div className="eventcard" data-aos="fade-up">
+    <div
+      style={{
+        display: 'flex',
+        justifyContent: 'center', 
+        alignItems: 'center', 
+        marginTop: '20px', 
+        flexDirection: screenWidth < 426 ? 'column' : 'row', // Switch direction based on screen width
+      }}
+      data-aos="fade-up"
+    >
       <iframe
-        style={{ borderRadius: '12px' }}
+        style={{
+          borderRadius: '12px',
+          width: screenWidth < 426 ? '70%' : '30%', // Adjust width based on screen width
+        }}
         src={src}
-        width="100%"
         height="352"
         frameBorder="0"
         allowFullScreen=""
