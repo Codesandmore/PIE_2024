@@ -15,7 +15,7 @@ const MajorEvents = () => {
           display: "flex",
           justifyContent:
             window.innerHeight > window.innerWidth
-              ? "flex-start"
+              ? "center"
               : "space-around",
           width: "100vw",
           alignItems: "center",

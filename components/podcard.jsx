@@ -6,7 +6,7 @@ const PodCard = ({ src, id }) => {
       <iframe
         style={{ borderRadius: "12px" }}
         src={src}
-        minWidth="302"
+        // minWidth="302"
         height="352"
         frameBorder="0"
         allowFullScreen=""

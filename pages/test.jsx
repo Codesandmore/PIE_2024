@@ -58,7 +58,7 @@ const RecentEventsSpotify = () => {
         }}
       >
         <a
-          style={{ textDecoration: "none" }}
+          style={{ textDecoration: "none", justifyContent: "center" }}
           href="https://open.spotify.com/show/0efNfgAgQScY8NJeYtUMzB?si=d00228512eb548fe"
           className="join-us-button"
         >

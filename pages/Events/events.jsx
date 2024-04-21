@@ -1,5 +1,5 @@
 import MajorEvents from "./majorEvents";
-import PiePods from "./piePods";
+import PiePodsEvent from "./piePods";
 import RecentEvents from "./recentEvents";
 import VoiceIt from "./voiceIt";
 import Desc from "./desc";
@@ -10,7 +10,7 @@ const Events = () => {
       <Desc />
       <RecentEvents />
       <MajorEvents />
-      <PiePods />
+      <PiePodsEvent />
       <VoiceIt />
     </div>
   );
