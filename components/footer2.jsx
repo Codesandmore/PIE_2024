@@ -84,7 +84,7 @@ function Footer2() {
                   />
                 </div>
               </div>
-            </div>
+            </div> 
           </div>
           <div className={styles.footerLine} />
         </footer>

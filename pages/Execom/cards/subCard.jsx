@@ -1,7 +1,7 @@
 import { coreTeamData } from "../../../Data/Execom/2024";
 import ExeCard from "./ExeCard";
 
-const CoreTeam = () => {
+const SubTeam = () => {
   const generateCards = () =>
     coreTeamData.map((item) => (
       <ExeCard key={item.id} img={item.img} name={item.name} pos={item.pos} />
@@ -9,7 +9,7 @@ const CoreTeam = () => {
 
   return (
     <>
-      <h2>STUDENT LEADERSHIP TEAM</h2>
+      <h2>SUB EXECOM</h2>
       <div
         style={{
           display: "flex",
@@ -32,4 +32,4 @@ const CoreTeam = () => {
   );
 };
 
-export default CoreTeam;
+export default SubTeam;

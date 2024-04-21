@@ -314,7 +314,8 @@
 }
 .copyright2023 {
   flex-shrink: 0;
-  debug_commit: f6aba90;
+  /* text-align: center; */
+  /* debug_commit: f6aba90; */
 }
 .copyright2023,
 .termsOfService {
@@ -376,7 +377,6 @@
   font-family: Inter;
 }
 
-
 .aboutUs,
 .careers,
 .documentation,
@@ -387,7 +387,6 @@
 .pressConferences {
   font-size: 16px;
 }
-
 
 @media screen and (max-width: 1050px) {
   .headerContentParent {
@@ -457,7 +456,7 @@
     gap: 25px;
   }
 
-  .copyright2023{
+  .copyright2023 {
     font-size: 13px;
   }
 
@@ -499,7 +498,6 @@
     color: #826868;
   }
 
-
   .buttonIconChild {
     position: absolute;
     top: 0;
@@ -530,5 +528,4 @@
     flex-direction: row;
     justify-content: flex-start;
   }
-
 }
