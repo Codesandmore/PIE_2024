@@ -19,7 +19,7 @@ const RecentEventsSpotify = () => {
     <div>
       <h1>PIE PODS</h1>
       <div
-        style={{
+       /*  style={{
           display: "flex",
           justifyContent:
             window.innerHeight > window.innerWidth
@@ -27,8 +27,8 @@ const RecentEventsSpotify = () => {
               : "space-around",
           width: "100vw",
           alignItems: "center",
-          // ...(window.innerWidth <= 768 && { flexWrap: "wrap" }),
-        }}
+          overflowX: "scroll",
+        }} */
       >
         {generateCards()}
       </div>
