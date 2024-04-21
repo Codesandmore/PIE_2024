@@ -2,7 +2,7 @@ export const majorEvents = [
   {
     id: 1,
     name: "Vfiesta",
-    img: "major/vfiesta.jpg",
+    img: "major/vfiesta.png",
   },
   {
     id: 2,
@@ -27,6 +27,6 @@ export const majorEvents = [
   {
     id: 6,
     name: "SOT",
-    img: "major/sot.jpg",
+    img: "major/sot.png",
   },
 ];

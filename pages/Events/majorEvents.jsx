@@ -19,8 +19,10 @@ const MajorEvents = () => {
               : "space-around",
           width: "100vw",
           alignItems: "center",
+
           // overflowX: "scroll",
-          flexWrap:"wrap"
+          flexWrap: "wrap",
+          // margin: "0 auto",
           // scrollbar-width: "none",
         }}
       >

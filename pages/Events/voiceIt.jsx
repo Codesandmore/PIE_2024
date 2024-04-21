@@ -1,8 +1,12 @@
 import Card from "../../components/card";
-import { voiceIt } from "../../Data/voiceIt";
+import VoiceCard from "../../components/voiceitCard";
+import { voiceData } from "../../Data/voiceIt";
 
 const VoiceIt = () => {
-  const generateCards = () => voiceIt.map((item) => <Card />);
+  const generateCards = () =>
+    voiceData.map((item) => (
+      <VoiceCard key={item.id} img={item.img} text={item.name} />
+    ));
 
   return (
     <>
@@ -17,9 +21,24 @@ const VoiceIt = () => {
           width: "100vw",
           alignItems: "center",
           overflowX: "scroll",
+          scrollbarWidth: "none",
         }}
       >
         {generateCards()}
+      </div>
+      <div
+        style={{
+          padding: "5vh",
+          paddingBottom: "10vh",
+        }}
+      >
+        <a
+          style={{ textDecoration: "none" }}
+          href="https://www.youtube.com/@IEEEPIEKeralaSection"
+          className="join-us-button"
+        >
+          View More
+        </a>
       </div>
     </>
   );

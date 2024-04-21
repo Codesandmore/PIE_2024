@@ -20,6 +20,7 @@ const RecentEvents = () => {
           width: "100vw",
           alignItems: "center",
           overflowX: "scroll",
+          scrollbarWidth: "none",
         }}
       >
         {generateCards()}

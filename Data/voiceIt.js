@@ -1,17 +1,17 @@
-export const voiceIt = [
+export const voiceData = [
   {
     id: 1,
     name: "Nikhil Prasad, Founder of Karikku",
-    img: "voice/voicenikhil.jpg",
+    img: "voice/voice1.png",
   },
   {
     id: 2,
     name: "Nikhil Kilivayil, CEO & Founder, Brototype",
-    img: "voice/voicenikhil_bro.jpeg",
+    img: "voice/voice2.png",
   },
   {
     id: 3,
     name: "Agrim Prakash,Founder and CEO of Idiotbox Media",
-    img: "voice/voiceitagrim.jpg",
+    img: "voice/voice3.png",
   },
 ];
