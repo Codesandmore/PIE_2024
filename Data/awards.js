@@ -37,7 +37,7 @@ export const awards = [
   },
   {
     id: 7,
-    name: "V-FIESTA",
+    name: "Anagha N",
     img: "award/7.png",
     dec: "Anagha N has been awarded Outstanding Student Volunteer Award 2020 by IEEE India Council.",
   },

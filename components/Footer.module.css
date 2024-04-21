@@ -388,6 +388,18 @@
   font-size: 16px;
 }
 
+.aboutUs,
+.careers,
+.documentation,
+.features,
+.newsBlogs,
+.papers,
+.plansPricing,
+.pressConferences {
+  text-decoration: none;
+  color: #fff;
+}
+
 @media screen and (max-width: 1050px) {
   .headerContentParent {
     flex-wrap: wrap;
