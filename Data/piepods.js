@@ -1,18 +1,14 @@
 export const piePods = [
     {
       id: 1,
-      name: "Nikhil Prasad, Founder of Karikku",
-      img: "pod/pie2.jpeg",
+      src:"https://open.spotify.com/embed/episode/4SPAjdFViB1E4rzKD7ycPD?si=PHQjTxtuQvev7kBNZuSC0w"
     },
     {
       id: 2,
-      name: "Nikhil Kilivayil, CEO & Founder, Brototype",
-      img: "pod/pie4.jpeg",
+      src:"https://open.spotify.com/embed/episode/6Q2oIRpJm3EKnrl7dOONg0?"
     },
     {
       id: 3,
-      name: "Agrim Prakash,Founder and CEO of Idiotbox Media",
-      img: "pod/pie3.jpeg",
+      src:"https://open.spotify.com/embed/episode/451aShClsQMLI7xVsNPFJR?"
     },
   ];
-  

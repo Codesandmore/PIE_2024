@@ -23,7 +23,7 @@ export default Test;
 const RecentEventsSpotify = () => {
   const generateCards = () =>
     piePods.map((item) => (
-      <PodCard key={item.id} img={item.img} text={item.name} />
+      <PodCard key={item.id} src={item.src} />
     ));
 
   return (
